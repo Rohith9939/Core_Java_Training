@@ -36,7 +36,11 @@ public class Calculator {
 				System.out.println("Please enter correct input ");
 				break;
 			}
-					
+		
+			System.out.println("Do you wish to continue : yes/no");
+			String ch = sc.next();
+			if(ch.equalsIgnoreCase("no"))
+				break;
 			
 		}while(choice !=5);
 		
